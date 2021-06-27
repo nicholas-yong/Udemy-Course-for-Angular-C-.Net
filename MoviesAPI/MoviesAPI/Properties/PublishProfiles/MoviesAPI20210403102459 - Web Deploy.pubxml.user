@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAVp2MUsKCP0WTrrinPFOLUAAAAAACAAAAAAAQZgAAAAEAACAAAACLm3/HvWdTTLxNqIXGy/hs3g/ukgh7RzfyuLgR0mURowAAAAAOgAAAAAIAACAAAADxFg0W3dgcDaKU91YU+BPTZ5YbhISKlzOVVPp98D0udoAAAAATCWO5E4YIfmpZrGmjFo8oxrrreZv3l+aEAgniX5nQSy8fxCJhsugwZQslUgeDnm5UZyB3aoRgpz6iWASTf37pHFlkcqafuou/fR/U18BQqIpaBKhSE6RF0EB0g6Y3v+BvLWJDY9PS08JPzRVBueI+gRCjJAWvKo/zj0Y6Ra2+1UAAAAAvwK+HsTZLDg1H9OJSwGvD6kElswpQoz+Mg9bk1m9CVdl40Qk4Qr/rDG2tOXRGXifPtH7wGUe8EHbBXn8jlbjj</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <EFMigrations Include="MoviesAPI.ApplicationDbContext">
+      <Value>Data Source=tcp:moviesapidbserver123.database.windows.net,1433%3bInitial Catalog=MoviesAPI_db%3bUser Id=nick_yong%40moviesapidbserver123%3bPassword=Namihana%406</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

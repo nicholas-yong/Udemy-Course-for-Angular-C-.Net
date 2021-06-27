@@ -1,0 +1,16 @@
+form{
+    max-width: 500px;
+}
+
+mat-form-field{
+    width: 100%
+}
+
+button{
+    margin-right: 1rem;
+}
+
+app-input-img
+{
+    margin-bottom: 1rem;
+}
